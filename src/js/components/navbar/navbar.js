@@ -4,7 +4,7 @@
     templateUrl:'js/components/navbar/navbar.html',
     controller: function() {
       angular.extend(this, {
-
+        
       })
     }
   })

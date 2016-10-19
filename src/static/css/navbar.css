@@ -6,10 +6,15 @@
       padding: 4px;
 }
 .navcard {
-  height: 50px;
+  height: 60px;
   background-color: rgb(50, 85, 107);
   text-align: center;
 }
 .navcard2 {
-  background-image: url('public/img/white/quizz_w.png');
+  height : 50px;
+  text-align: center;
+  padding: 7px 0 0 0;
+}
+.firstevent {
+  background-color: #CF6A00;
 }

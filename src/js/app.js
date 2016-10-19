@@ -7,5 +7,6 @@
     'app.services',
     'app.home',
     'app.navbar',
-    'app.agenda'
+    'app.agenda',
+    'app.footer'
 ]))

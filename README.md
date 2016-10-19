@@ -1,4 +1,4 @@
-# ANGULAR 1.5 SAMPLE
+# Hackaton - Pau
 
 ### Prerequisites
 * [NodeJS](https://nodejs.org/en/)

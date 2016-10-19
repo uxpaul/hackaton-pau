@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  body {}
 
  #homepage.form-control {
@@ -30,3 +31,8 @@
      height: 100px;
      text-align: center;
  }
+=======
+body {
+  background: url("/img/giphy.gif");
+}
+>>>>>>> 833a910dad30d11d34cc9e47ed3c77bdf62b5604

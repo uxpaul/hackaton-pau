@@ -1,22 +1,32 @@
- body{
-  background-image: url("/img/giphy.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+ body {}
 
-#homepage.form-control{
-  text-align: center;
-}
-#homepage {
-  margin: auto;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left:0;
-  width: 100%;
-  height: 100px;
-  text-align: center;
+ #homepage.form-control {
+     text-align: center;
+ }
 
+ homepage {
+     margin: auto;
+     position: absolute;
+     top: 105px;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     background-image: url("/img/giphy.gif");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
 
-}
+ .home-content {
+     margin: auto;
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 100px;
+     text-align: center;
+ }

@@ -1,14 +1,15 @@
-#homepage.btn btn-secondary{
-text-align: center;
-
+ body{
+  background-image: url("/img/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 #homepage.form-control{
   text-align: center;
 }
 #homepage {
   margin: auto;
   position: absolute;
-  background-color: red;
   top: 0;
   right: 0;
   bottom: 0;

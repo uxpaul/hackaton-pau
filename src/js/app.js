@@ -6,5 +6,6 @@
     'app.config',
     'app.services',
     'app.home',
-    'app.navbar'
+    'app.navbar',
+    'app.footer'
 ]))

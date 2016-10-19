@@ -8,5 +8,6 @@
     'app.home',
     'app.navbar',
     'app.agenda',
-    'app.footer'
-]))
+    'app.footer',
+    'app.quiz'
+    ]))

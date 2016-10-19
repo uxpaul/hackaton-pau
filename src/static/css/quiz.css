@@ -1,0 +1,31 @@
+#carousel {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.card {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.card:nth-child(1) {
+  -webkit-transform: translateX(0) translateZ(0);
+          transform: translateX(0) translateZ(0);
+  background: #add8e6;
+}
+.card:nth-child(2) {
+  -webkit-transform: translateX(-55%) translateZ(-50px) scale(0.8);
+          transform: translateX(-55%) translateZ(-50px) scale(0.8);
+  background: #ff7f50;
+}
+.card:nth-child(3) {
+  -webkit-transform: translateX(55%) translateZ(-50px) scale(0.8);
+          transform: translateX(55%) translateZ(-50px) scale(0.8);
+  background: #7fff00;
+}

@@ -1,7 +1,4 @@
-<<<<<<< HEAD
- body {}
-
- #homepage.form-control {
+#homepage.form-control {
      text-align: center;
  }
 
@@ -21,18 +18,43 @@
  }
 
  .home-content {
-     margin: auto;
+     margin: 90px 0 50px 0;
      position: absolute;
      top: 0;
      right: 0;
      bottom: 0;
      left: 0;
      width: 100%;
-     height: 100px;
+     height: 180px;
      text-align: center;
  }
-=======
-body {
-  background: url("/img/giphy.gif");
+.enbas {
+  margin: 30px;
 }
->>>>>>> 833a910dad30d11d34cc9e47ed3c77bdf62b5604
+.imghome {
+  height: 300px;
+  width: auto;
+}
+.homebas {
+  height: 200px;
+}
+.subscribe-form-submit {
+  background-color: rgb(207, 106, 0) !important;
+  color: white;
+
+}
+.subscribe-form-submit:hover {
+  background-color: #00C4B1;
+  color: white !important:;
+  border: 2px white solid !important;
+}
+button {
+  border-radius: 0px !important;
+
+}
+/*.saisir {
+  width: 280px;
+}*/
+.homelogo {
+  
+}

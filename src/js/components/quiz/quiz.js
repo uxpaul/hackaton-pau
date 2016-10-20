@@ -5,13 +5,17 @@
         controller: function() {
             angular.extend(this, {
                 quizzes : [
-                  {title:"Quiz 1",
-
+                  {title:"Welcome to Bordeaux?",
+                  image:"img/stmichel.jpg",
+                  question1: "Who was St Michel?"
                 },
-                  {title:"Quiz 3"
+                  {title:"Place de La Bourse",
+                  image:"img/place_bourse.jpg",
+                  question2: "Where is the place de Bourse?"
                 },
-                  {title:"Quiz 2"
-
+                  {title:"Bad day at work?",
+                  image:"img/client_mecontent.jpg",
+                  question3: "How do you keep calm?"
                 }],
                 transforms: [],
                 startIndex : 0,

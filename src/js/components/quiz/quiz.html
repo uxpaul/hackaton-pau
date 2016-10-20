@@ -1,28 +1,95 @@
-<div id="carousel" id="clearbtn" type="button" value="clear" ng-click="myVar=''">
-    <div class="card base-class" ng-repeat="quiz in $ctrl.quizzes" ng-click="myVar='my-class'" ng-class="myVar">
-        {{ $index }}
-        {{ quiz.title }}
-
-    </div>
-</div>
-</div>
-
-<div id="quizbtns">
-<button type="submit" class="btn btn-primary glyphicon glyphicon-chevron-left" ng-click="$ctrl.next()"></button>
-<button type="submit" class="btn btn-primary glyphicon glyphicon-chevron-right" ng-click="$ctrl.next()"></button>
-</div>
-
-
-<div class="container-fluid classment">
 <div class="row">
-<div class="col-md-offset-6 col-md-6">
 
-<div class="well well-lg"><img src="img/bleu/profil_b.png" class="imgo" alt="" /></div>
-<div class="well well-lg"><img src="img/bleu/profil_b.png" class="imgo" alt="" /></div>
-<div class="well well-lg"><img src="img/bleu/profil_b.png" class="imgo" alt="" /></div>
-<div class="well well-lg"><img src="img/bleu/profil_b.png" class="imgo" alt="" /></div>
-<div class="well well-lg"><img src="img/bleu/profil_b.png" class="imgo" alt="" /></div>
+    <div class="col-md-6">
+        <div id="carousel" id="clearbtn" type="button" value="clear" ng-click="myVar=''">
+            <div class="card base-class" ng-repeat="quiz in $ctrl.quizzes" ng-click="myVar='my-class'" ng-class="myVar">
+                {{ $index }}
+                {{ quiz.title }}
+                <img ng-src="{{quiz.image}}" />
+                {{quiz.question1}}
+            </div>
+        </div>
+        <div id="quizbtns">
+            <button type="submit" class="btn btn-primary glyphicon glyphicon-chevron-left" ng-click="$ctrl.next()"></button>
+            <button type="submit" class="btn btn-primary glyphicon glyphicon-chevron-right" ng-click="$ctrl.next()"></button>
+        </div>
+    </div>
 
-</div>
-</div>
+    <div class="col-md-6 quiz-users">
+        <div class="row event thirdevent">
+            <div class="col-xs-4 col-lg-4">
+                <img src="img/avatar-01.png" class="imgo">
+            </div>
+            <div class="col-xs-8 col-lg-8">
+                <h4>
+                    User
+                </h4>
+                <p>
+
+                    {{ $ctrl.date | date:'dd-MM-yyyy' }}</p>
+                <p>
+                    <strong>10000 points</strong>
+                </p>
+                <p class="option">
+                    En savoir +
+                </p>
+            </div>
+        </div>
+        <div class="row thirdevent">
+            <div class="col-xs-4 col-lg-4">
+                <img src="img/avatar-01.png" class="imgo">
+            </div>
+            <div class="col-xs-8 col-lg-8">
+                <h4>
+                    User
+                </h4>
+                <p>
+                  {{ $ctrl.date | date:'dd-MM-yyyy' }}
+                <p>
+                    <strong>10000 points</strong>
+                </p>
+                <p class="option">
+                    En savoir +
+                </p>
+
+            </div>
+        </div>
+        <div class="row thirdevent">
+            <div class="col-xs-4 col-lg-4">
+                <img src="img/avatar-01.png" class="imgo">
+            </div>
+            <div class="col-xs-8 col-lg-8">
+                <h4>
+                    User</h4>
+                <p>
+                    {{ $ctrl.date | date:'dd-MM-yyyy' }}
+                <p>
+                    <strong>10000 points</strong>
+                </p>
+                <p class="option">
+                    En savoir +
+                </p>
+
+            </div>
+        </div>
+        <div class="row thirdevent">
+            <div class="col-xs-4 col-lg-4">
+                <img src="img/avatar-01.png" class="imgo">
+            </div>
+            <div class="col-xs-8 col-lg-8">
+                <h4>
+                    User
+                </h4>
+                <p>
+                    {{ $ctrl.date | date:'dd-MM-yyyy' }}
+                <p>
+                    <strong>10000 points</strong>
+                </p>
+                <p class="option">
+                    En savoir +
+                </p>
+
+            </div>
+        </div>
+    </div>
 </div>

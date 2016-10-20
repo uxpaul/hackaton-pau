@@ -1,7 +1,72 @@
-#agenda {
-  color:;
+#agenda h4 {
+    color: rgb(50, 85, 107);
 }
+
+.imgo {
+    margin: 30px;
+    height: 50px;
+    width: auto;
+}
+
 .card {
-      box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12) !important;
-      padding: 4px;
+    padding: 4px;
+}
+
+
+.navcard {
+    height: 60px;
+    background-color: rgb(50, 85, 107);
+    text-align: center;
+}
+
+.navcard2 {
+    height: 50px;
+    padding: 7px 0 0 0;
+}
+
+.event {
+    margin: 50px 0px 0 0;
+    background-color: #CF6A00;
+    height: 140px;
+    padding: 4px;
+    width: 500px;
+
+}
+.eventdroit,h1,h3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.thirdevent {
+    /*box-shadow: 0 2px 5px 0 rgb(50, 85, 107), 0 2px 10px 0 rgb(50, 85, 107) !important;*/
+    padding: 4px;
+    margin: 50px 0 0 0;
+    height: 140px;
+    border: 1px solid rgb(50, 85, 107);
+    width: 500px;
+}
+
+.eventdroit {
+    border: 1px solid rgb(50, 85, 107) !important;
+    margin: 50px 0 0 0;
+    height: 710px;
+}
+
+.eventgauche {
+}
+
+.globalevent {
+  padding: 0 0 50px 0 ;
+}
+
+.option {
+    float: right;
+    /*padding-bottom: 50px;*/
+}
+.p1 {
+color:  rgb(207, 106, 0);
+}
+.agendabuttom {
+
+  height: 60px;
 }

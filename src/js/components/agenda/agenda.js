@@ -4,7 +4,7 @@
     templateUrl:'js/components/agenda/agenda.html',
     controller:function(){
       angular.extend(this, {
-
+        date:new Date()
 
       })
     }

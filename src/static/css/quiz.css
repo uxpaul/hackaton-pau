@@ -46,8 +46,12 @@
 #quizbtns{
   margin-top: 50px;
 }
-
-.base-class.my-class {
-  color: red;
+.base-class {
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+}
+.base-class.my-class.card {
+  width: 800px;
+  height: 800px;
+  padding-left: 0px;
   font-size:3em;
 }

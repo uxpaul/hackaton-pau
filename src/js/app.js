@@ -9,5 +9,6 @@
     'app.navbar',
     'app.agenda',
     'app.footer',
-    'app.quiz'
+    'app.quiz',
+    'app.bonplan'
     ]))

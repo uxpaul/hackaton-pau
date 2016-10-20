@@ -32,3 +32,22 @@
           transform: translateX(55%) translateZ(-50px) scale(0.8);
   background: #7fff00;
 }
+
+
+
+.glyphicon-chevron-right{
+  margin-left: 500px;
+}
+
+#carousel{
+  margin-top: 50px;
+}
+
+#quizbtns{
+  margin-top: 50px;
+}
+
+.base-class.my-class {
+  color: red;
+  font-size:3em;
+}

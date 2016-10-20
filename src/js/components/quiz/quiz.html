@@ -1,18 +1,36 @@
-
 <div id="carousel" id="clearbtn" type="button" value="clear" ng-click="myVar=''">
-  <div class="card base-class" ng-repeat="quiz in $ctrl.quizzes" ng-click="myVar='my-class'" ng-class="myVar" >
-    {{ $index }}
-    {{ quiz.title }}
+    <div class="card base-class" ng-repeat="quiz in $ctrl.quizzes" ng-click="myVar='my-class'" ng-class="myVar">
+        {{ $index }}
+        {{ quiz.title }}
+
+    </div>
+</div>
+</div>
+
+<div id="quizbtns">
+<button type="submit" class="btn btn-primary glyphicon glyphicon-chevron-left" ng-click="$ctrl.next()"></button>
+<button type="submit" class="btn btn-primary glyphicon glyphicon-chevron-right" ng-click="$ctrl.next()"></button>
+</div>
 
 
+<div class="container-fluid classment">
+<div class="row">
+<div class="col-md-offset-6 col-md-6">
 
-
+<div class="well well-lg"><img src="img/bleu/profil_b.png" class="imgo" alt="" /></div>
+<div class="well well-lg"><img src="img/bleu/profil_b.png" class="imgo" alt="" /></div>
+<div class="well well-lg"><img src="img/bleu/profil_b.png" class="imgo" alt="" /></div>
+<div class="well well-lg"><img src="img/bleu/profil_b.png" class="imgo" alt="" /></div>
+<div class="well well-lg"><img src="img/bleu/profil_b.png" class="imgo" alt="" /></div>
 
 </div>
 </div>
+<<<<<<< HEAD
 
 
 <div id="quizbtns">
   <button type="submit" class="btn btn-primary glyphicon glyphicon-chevron-left" ng-click="$ctrl.next()"></button>
   <button type="submit" class="btn btn-primary glyphicon glyphicon-chevron-right" ng-click="$ctrl.next()"></button>
+=======
+>>>>>>> 1df63db33c35c118c3e341e4a4a1726be36aa803
 </div>

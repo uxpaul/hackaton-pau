@@ -1,84 +1,5 @@
-<div class="container">
-  <h1 class="text-center"> L'Agenda </h1>
-    <div class="row globalevent">
+<navbar> </navbar>
 
-        <div class="col-xs-6 col-lg-6 eventgauche">
-            <div class="row event">
-              <div class="col-xs-4 col-lg-4">
-              <img src="img/event/bar.jpg" class="imgo">
-            </div>
-            <div class="col-xs-8 col-lg-8">
-                <h4> Bar </h4>
-                <p> Le {{ $ctrl.date | date:'dd-MM-yyyy' }}</p>
-                <p>
-                  Venez découvrir
-                </p>
-                <p class="option"> En savoir + </p>
-              </div>
-            </div>
-            <div class="row thirdevent">
-              <div class="col-xs-4 col-lg-4">
-              <img src="img/event/boitedenuit.jpg" class="imgo">
-            </div>
-            <div class="col-xs-8 col-lg-8">
-                <h4> Boîte de nuit </h4>
-                <p> {{ $ctrl.date | date:'dd-MM-yyyy' }}</p>
-                <p>
-                  Description
-                </p>
-                <p class="option"> En savoir + </p>
-
-              </div>
-            </div>
-            <div class="row thirdevent">
-              <div class="col-xs-4 col-lg-4">
-              <img src="img/event/cinema.jpg" class="imgo">
-            </div>
-            <div class="col-xs-8 col-lg-8">
-                <h4> Cinéma </h4>
-                <p> {{ $ctrl.date | date:'dd-MM-yyyy' }}</p>
-                <p>
-                  Description
-                </p>
-                <p class="option"> En savoir + </p>
-
-              </div>
-            </div>
-            <div class="row thirdevent">
-              <div class="col-xs-4 col-lg-4">
-              <img src="img/event/concert.jpg" class="imgo">
-            </div>
-            <div class="col-xs-8 col-lg-8">
-                <h4> Concert </h4>
-                <p> {{ $ctrl.date | date:'dd-MM-yyyy' }}</p>
-                <p>
-                  Description
-                </p>
-                <p class="option"> En savoir + </p>
-
-              </div>
-            </div>
-        </div>
-        <div class="col-xs-6 col-lg-6 eventdroit">
-            <h1> Bar </h1>
-            <h3>Le {{ $ctrl.date | date:'dd-MM-yyyy' }}</h3>
-            <p class="p1"> Description </p>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-
-        </div>
-
-    </div>
-    <div class="row agendabuttom">
-    </div>
-</div>
-
-
-<!--
 <div class="container" id="agenda">
     <div class="row globalevent">
 
@@ -154,7 +75,86 @@
 
     </div>
 
+    <!--
+<div class="row">
+
+  <div class="col-xs-3">
+    <div class="text-center card">
+    <div class="icon"><i class="fa fa-code"></i></div>
+    <h4> Les activitées</h4>
+    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+  </div>
+  <div class="text-center card">
+  <div class="icon"><i class="fa fa-code"></i></div>
+  <h4> Les activitées</h4>
+  <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+  <div class="col-xs-3">
+    <div class="text-center card">
+    <div class="icon"><i class="fa fa-code"></i></div>
+    <h4> Les activitées</h4>
+    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+  </div>
+  <div class="col-xs-3">
+    <div class="text-center card">
+    <div class="icon"><i class="fa fa-code"></i></div>
+    <h4> Les activitées</h4>
+    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+  </div>
+
+  <div class="col-xs-3">
+    <div class="text-center card">
+    <div class="icon"><i class="fa fa-code"></i></div>
+    <h4> Les activitées</h4>
+    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+  </div>
+
+</div>
+<div class="row">
+  <div class="col-xs-3">
+
+    <md-card>
+   <img ng-src="{{imagePath}}" class="md-card-image" alt="Washed Out">
+   <md-card-title>
+     <md-card-title-text>
+       <span class="md-headline">Icon action buttons</span>
+     </md-card-title-text>
+   </md-card-title>
+   <md-card-content>
+     <p>
+       The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+       two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+     </p>
+   </md-card-content>
+   <md-card-actions layout="row" layout-align="end center">
+     <md-button class="md-icon-button" aria-label="Favorite">
+       <md-icon md-svg-icon="img/icons/favorite.svg"></md-icon>
+     </md-button>
+     <md-button class="md-icon-button" aria-label="Settings">
+       <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+     </md-button>
+     <md-button class="md-icon-button" aria-label="Share">
+       <md-icon md-svg-icon="img/icons/share-arrow.svg"></md-icon>
+     </md-button>
+   </md-card-actions>
+ </md-card>
+ <md-card>
+
+  </div>
+
+  <div class="col-xs-3">
+  </div>
+
+  <div class="col-xs-3">
+  </div>
+
+  <div class="col-xs-3">
+  </div>
+-->
 <div class="row agendabuttom">
 </div>
 </div>
--->

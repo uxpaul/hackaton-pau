@@ -8,7 +8,7 @@
             }, function(path) {
                 $scope.current = path;
             });
-
+            
             angular.extend(this, {
                 $onInit() {
                     $scope.current = $location.path()

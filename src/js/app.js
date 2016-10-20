@@ -10,5 +10,6 @@
     'app.agenda',
     'app.footer',
     'app.quiz',
-    'app.bonplan'
+    'app.bonplan',
+    'app.profil'
     ]))

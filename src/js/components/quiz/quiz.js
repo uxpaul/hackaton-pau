@@ -6,18 +6,10 @@
             angular.extend(this, {
                 quizzes : [
                   {title:"Quiz 1",
-<<<<<<< HEAD
             },
               {title:"Quiz 3"
             },
               {title:"Quiz 2"
-=======
-
-                },
-                  {title:"Quiz 3"
-                },
-                  {title:"Quiz 2"
->>>>>>> 66aa42421afc8a7fe5a59d66c6dd8f491903486a
 
             }],
             transforms: [],
@@ -46,7 +38,6 @@
                 } else {
                     x++;
                 }
-<<<<<<< HEAD
                 return x;
             },
             //ng-click
@@ -65,10 +56,4 @@
     }
 })
 
-=======
-
-            })
-        }
-    })
->>>>>>> 66aa42421afc8a7fe5a59d66c6dd8f491903486a
 })(angular.module('app.quiz'))

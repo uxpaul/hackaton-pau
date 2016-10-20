@@ -6,7 +6,7 @@
             angular.extend(this, {
                 quizzes : [
                   {title:"Quiz 1",
-                   
+
                 },
                   {title:"Quiz 3"
                 },
@@ -53,6 +53,7 @@
                     }
                     this.transforms.push(this.transforms.shift());
                 }
+
             })
         }
     })

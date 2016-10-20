@@ -1,9 +1,14 @@
-<div id="carousel" >
-  <div class="card" ng-repeat="quiz in $ctrl.quizzes" ng-click="myVar='my-class'">
+
+<div id="carousel" id="clearbtn" type="button" value="clear" ng-click="myVar=''">
+  <div class="card base-class" ng-repeat="quiz in $ctrl.quizzes" ng-click="myVar='my-class'" ng-class="myVar" >
     {{ $index }}
     {{ quiz.title }}
 
-<span class="base-class" ng-class="myVar">Sample Text</span>
+
+
+
+
+</div>
 </div>
 </div>
 

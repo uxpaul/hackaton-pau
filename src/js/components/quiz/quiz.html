@@ -1,6 +1,12 @@
-<div id="carousel" ng-click="$ctrl.next()">
-  <div class="card" ng-repeat="quiz in $ctrl.quizzes">
+<div id="carousel" >
+  <div class="card" ng-repeat="quiz in $ctrl.quizzes" ng-click="myVar='my-class'">
     {{ $index }}
     {{ quiz.title }}
-  </div>
+<span class="base-class" ng-class="myVar">Sample Text</span>
+</div>
+</div>
+
+<div id="quizbtns">
+  <button type="submit" class="btn btn-primary glyphicon glyphicon-chevron-left" ng-click="$ctrl.next()"></button>
+  <button type="submit" class="btn btn-primary glyphicon glyphicon-chevron-right" ng-click="$ctrl.next()"></button>
 </div>

@@ -5,10 +5,14 @@
         controller: function() {
             angular.extend(this, {
                 quizzes : [
-                  {title:"Quiz 1"},
-                  {title:"Quiz 3"},
-                  {title:"Quiz 2"}
-                ],
+                  {title:"Quiz 1",
+                   
+                },
+                  {title:"Quiz 3"
+                },
+                  {title:"Quiz 2"
+
+                }],
                 transforms: [],
                 startIndex : 0,
                 $onInit() {

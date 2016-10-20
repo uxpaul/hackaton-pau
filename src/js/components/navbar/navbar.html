@@ -1,6 +1,40 @@
-<nav class="navbar navbar-default">
+<div class="row navcard">
+
+  <div class="col-xs-2">
+    <p ui-sref-active="selected"><a ui-sref="app.home"><img src="img/logo.png" class="navcard2 center-block"></a></p>
+
+  </div>
+  <div class="col-xs-2">
+    <p ui-sref-active="selected"><a ui-sref="app.bonplan"><img src="img/{{(current === '/bonplan' ? 'orange': 'white')}}/bonsplans_{{(current === '/bonplan' ? 'o': 'w')}}.png" class="navcard2 center-block"></a></p>
+
+  </div>
+  <div class="col-xs-2">
+    
+    <p ui-sref-active="selected"><a ui-sref="app.home"><img src="img/white/quizz_w.png" class="navcard2">
+</a></p>
+
+  </div>
+  <div class="col-xs-2">
+    <p ui-sref-active="selected"><a ui-sref="app.home"><img src="img/white/classement_w.png" class="navcard2">
+</a></p>
+
+  </div>
+  <div class="col-xs-2">
+    <p ui-sref-active="selected"><a ui-sref="app.agenda"><img src="img/orange/agenda_o.png" class="navcard2">
+</a></p>
+
+  </div>
+  <div class="col-xs-2">
+    <p ui-sref-active="selected"><a ui-sref="app.home"><img src="img/white/profil_w.png" class="navcard2"></a></p>
+
+  </div>
+
+</div>
+
+
+
+<!-- <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -13,7 +47,6 @@
       </a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li ui-sref-active="selected"><a href="#">Link <span class="sr-only">(current)</span></a></li>
@@ -25,6 +58,6 @@
         <li ui-sref-active="selected"><a ui-sref="app.home">Connection</a></li>
         <li ui-sref-active="selected"><a ui-sref="app.quiz">Quiz</a></li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    </div>
+  </div>
+</nav> -->

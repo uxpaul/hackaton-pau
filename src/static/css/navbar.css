@@ -70,3 +70,24 @@ color:  rgb(207, 106, 0);
 
   height: 60px;
 }
+.border {
+  border : 1px solid rgb(50, 85, 107);
+  margin: 15px;
+
+}
+.border img {
+  /*float: right;*/
+}
+.profilbuttom {
+  height: 90px;
+}
+.middle {
+  border : 1px solid rgb(50, 85, 107);
+  padding: 20px 20px;
+}
+#right {
+  margin-top: 27px;
+}
+.between {
+  margin: 20px;
+}

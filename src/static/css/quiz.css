@@ -49,5 +49,6 @@
 
 .base-class.my-class {
   color: red;
-  font-size:3em;
+  width: 400px;
+  height: 400px;
 }

@@ -50,6 +50,8 @@
     border: 1px solid rgb(50, 85, 107) !important;
     margin: 50px 0 0 0;
     height: 710px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .eventgauche {
@@ -90,4 +92,10 @@ color:  rgb(207, 106, 0);
 }
 .between {
   margin: 20px;
+}
+.avatar {
+  margin-right: -1px;
+}
+.recompense {
+  margin-top: 50px;
 }

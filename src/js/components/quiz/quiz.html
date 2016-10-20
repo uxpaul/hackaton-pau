@@ -1,23 +1,6 @@
-
-
-
-
-
-<navbar></navbar>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer></footer>
+<div id="carousel" ng-click="$ctrl.next()">
+  <div class="card" ng-repeat="quiz in $ctrl.quizzes">
+    {{ $index }}
+    {{ quiz.title }}
+  </div>
+</div>

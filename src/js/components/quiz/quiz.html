@@ -1,7 +1,12 @@
 <div id="carousel" ng-click="$ctrl.next()">
-  <div class="card" ng-repeat="quiz in $ctrl.quizzes">
-    {{ $index }}
-    {{ quiz.title }}
-  </div>
+    <div class="card" ng-repeat="quiz in $ctrl.quizzes">
+        {{ $index }} {{ quiz.title }}
+
+    </div>
+
+    <span class="base-class" ng-class="myVar">Sample Text</span>
+</div>
+</div>
+
 
 </div>
